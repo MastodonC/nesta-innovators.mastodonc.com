@@ -7,7 +7,8 @@
 
 .chart {
   margin: 0 auto;
-  font-size: 8px;
+  font-size: 10px;
+  padding-right: 80px;
 }
 
 .line {
@@ -84,8 +85,8 @@
 
 
 rect {
-    stroke: #41B6C4;
-    fill: #41B6C4;
+    stroke: #009fee;
+    fill: #009fee;
 }
 
 rect#tooltip {
