@@ -94,3 +94,16 @@ li {
     height: 500px;
     margin: auto;
 }
+
+#innovator div {
+  margin: 5px;
+}
+#innovator .avatar img {
+  border: 1px solid black;
+  width: 125px;
+}
+
+#innovator .name {
+  font-weight: bold;
+  font-size: 1.1em; 
+}
