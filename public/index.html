@@ -17,6 +17,9 @@
   <script src="http://d3js.org/d3.v3.js"></script>
 
   <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script src="js/sigma.min.js"></script>
+  <script src="js/sigma.parsers.json.min.js"></script>
+  <script src="js/sigma-settings.js"></script>
 </head>
 
 <body>
@@ -111,8 +114,15 @@
           </div>
         </div>
         
-        
-        
+        <div class="row">
+          <div class="span12">
+            <h2>Innovators</2>
+          </div>
+          <div class="span4">
+            This chart shows the connections between innovators.
+          </div>
+          <div class="span7" id="sigma-container">
+          </div>
       </div>
     </div>
   </div>
@@ -166,6 +176,7 @@
   <!-- companies -->
   <script src="js/company.js"></script> 
   
+  <script src="js/main.js"></script>
 
 </body>
 </html>
