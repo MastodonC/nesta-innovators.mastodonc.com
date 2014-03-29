@@ -115,6 +115,7 @@ jQuery(document).ready(function($) {
 
   $('form select').change(function() {
      $("#sigma-container").empty();
+     $("#follower .twitter").empty();
      innovators.clear();
      $(this).find("option:selected").each(function() {
        var github = $(this).val();
