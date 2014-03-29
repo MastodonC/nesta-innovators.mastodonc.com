@@ -113,7 +113,7 @@ jQuery(document).ready(function($) {
        var attr = attributes[github];
        if (attr) {
         $("#innovator .avatar").html('<img src="' + attr.avatar + '"/>');
-        $("#innovator .twitter").html('<a href="http://twitter.com/' + github + '">@' + github + '</a>');
+        $("#innovator .twitter").html('<a href="http://github.com/' + github + '"><i class="icon-github"/> ' + github + '</a>');
         $("#innovator .name").text(attr.name);
         $("#innovator .company").text(attr.company);
        }
