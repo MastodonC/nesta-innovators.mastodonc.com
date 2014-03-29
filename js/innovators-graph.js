@@ -3,7 +3,17 @@ var innovators = function() {
   var graph = function(jsonFile, container) {
     sigma.parsers.json(jsonFile,
             {container: container},
-            function(obj) { current = obj.graph });
+            function(obj) {
+
+              obj.bind('clickNode', function(e) {
+                  console.log(e.data.node.label);
+                  var github = e.data.node.label;
+                  $("#follower .twitter").html('<a href="http://github.com/' + github + '"><i class="icon-github"/> ' + github + '</a>');
+              });
+
+              current = obj.graph;
+
+            });
    
   }
 
