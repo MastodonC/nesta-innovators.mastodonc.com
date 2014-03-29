@@ -20,10 +20,10 @@ var x2 = d3.scale.linear()
 
   bar2.append("rect")
       .attr("width", function(d) { return x2(d.followers); })
-      .attr("height", barHeight2 - 1);
+      .attr("height", barHeight2 - 4);
 
   bar2.append("text")
-      .attr("x", function(d) { return x2(d.followers) - 3; })
+      .attr("x", function(d) { return x2(d.followers) + 4; })
       .attr("y", barHeight2 / 2)
       .attr("dy", ".35em")
 	.text(function(d) { return d.login; });});

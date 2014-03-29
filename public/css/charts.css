@@ -13,7 +13,7 @@
 
 .line {
   fill: none;
-  stroke: #009fee;
+  stroke: #08519c;
   stroke-width: 2;
 }
 
@@ -85,12 +85,12 @@
 
 
 rect {
-    stroke:#009fee;
-    fill: #009fee;
+    stroke:#08519c;
+    fill: #08519c;
 }
 
 rect#tooltip {
-    stroke: #009fee;
+    stroke: #08519c;
     stroke-width: 2;
     fill: white;
 }
@@ -102,19 +102,19 @@ rect#frame {
 }
 
 circle {
-  stroke: #009fee;
-  fill: #009fee;
+  stroke: #08519c;
+  fill: #08519c;
 }
 
 circle#ring {
-    stroke: #009fee;;
+    stroke: #08519c;;
     fill: none;
     stroke-width: 1;
 }
 
 line#drop {
     fill: none;
-    stroke: #009fee;;
+    stroke: #08519c;;
     stroke-width: 2;
     stroke-dasharray: 3, 3;
 }

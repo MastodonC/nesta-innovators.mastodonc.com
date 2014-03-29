@@ -20,10 +20,10 @@ var x3 = d3.scale.linear()
 
   bar3.append("rect")
       .attr("width", function(d) { return x3(d.Count); })
-      .attr("height", barHeight3 - 1);
+      .attr("height", barHeight3 - 4);
 
   bar3.append("text")
-      .attr("x", function(d) { return x3(d.Count) - 3; })
+      .attr("x", function(d) { return x3(d.Count) + 4; })
       .attr("y", barHeight3 / 2)
       .attr("dy", ".35em")
 	.text(function(d) { return d.Company; });});
