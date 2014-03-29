@@ -24,7 +24,7 @@
     <div class="navbar navbar-inverse navbar-static-top" id="topbar">
       <div class="container">
 	<div class="navbar-inner">
-	  <h1><a href="/">Nesta Innovators</h1>
+	  <h1><a href="/">Using big data to find innovators. A project funded by Nesta.</h1>
           <a class="brand">
             <i class=" icon-lightbulb icon-white icon-2x"></i>
           </a>
@@ -55,17 +55,25 @@
     <div class="container main-default" id="main">
       <div class="row">
         <div class="jumbotron span12">
-          <h2>The Headline</h2>
-          <p class="lead">The lead text</p>
+          <h2>Who are the technology innovators?</h2>
+          <p class="lead">
+          As previous Nesta-funded research has shown, innovative companies, industrial clusters, and high-growth companies are critical to the UK economy. Policymakers and investors aim to accelerate and encourage such companies, and to push forward greater innovation and growth.<br><br>
+We are particularly interested in innovation and growth in high-technology software firms. It’s hard for those from outside the field to navigate this foreign world well; official public data on individual companies in this sector is insufficient because the most innovative firms are often small and fast-changing, and the complexity and rate of change of what they are working on is very high. The end result of this is that large organisations can struggle to understand or invest effectively in new technologies and the firms that create them. 
+The good news is that there is a large amount of raw material which could help close this information gap: implicit and informal information about high-technology firms, influencers, and topics is shared all the time. <br><br>
+This project uses data about technologists from Github, Twitter, and about companies from Open Corporates, to create a new picture of these influencers in the UK. It takes influential individuals on Github as a starting point, and explores their social networks outwards. See <a href="/">methodology page</a> for more information, and please <a href="http://www.twitter.com/MastodonC">contact us</a> if you'd like to use or build on this research further. 
+</p>
         </div>
 
         <!-- Text Left -->
         <div class="span12">
           <div class="span7 offset4">
-            <h2>Top Innovators</h2>
+            <h2>People</h2>
           </div>
           <div class="span4">
-            <p>This chart shows top innovators</p>
+            <p>This chart shows the most influential UK-based individuals, measured by how many other professionals are following their work. Following someone on Github means that you wish to see what software code they're working on, and to be alerted to any updates. 
+            <p>These few people each have over 500 such followers, so their work is clearly regarded as important by their peers.
+            <p>We use these people as a starting point to explore the wider social network of innovative software developers, and to gain more insight into those groups. See the <a href="/">networks page</a> to explore further.</p>
+            
           </div>
           <div class="span7">
             <svg id="individuals" class="chart"></svg>
@@ -75,23 +83,25 @@
         <!-- Text Right -->
         <div class="row">
           <div class="span12">
-            <h2>Innovations by Company</h2>
+            <h2>Organisations</h2>
           </div>
           <div class="span7">
             <svg id="companies" class="chart"></svg>
           </div>
           <div class="span4">
-            This chart shows innovations by company.
-          </div>
+            This chart shows which organisations innovative UK individuals are working at.<p>
+            There is a strong public sector presence - the biggest organisations include the BBC, University of Cambridge, and the Government Digital Service. 
+            <p>There is also a strong American presence, from UK developers working for US-owned companies including Google, Facebook, and Yammer. 
+                      </div>
         </div>
 
         <!-- Text Left -->
         <div class="span12">
           <div class="span7 offset4">
-            <h2>Innovation by City</h2>
+            <h2>Places</h2>
           </div>
           <div class="span4">
-            <p>This chart shows innovations by city</p>
+            <p>This chart shows where in the UK people are based. The numbers are very heavily dominated by London and Cambridge residents, perhaps unsurprisingly given the clustering of software industries in those areas.</p>
           </div>
           <div class="span7">
             <svg id="location" class="chart"></svg>
@@ -107,7 +117,8 @@
             <div id="heatmap"><img src="heatmap.png"></div>
           </div>
           <div class="span4">
-            This chart shows which technologies are hot in which city.
+            <p>Finally, this chart shows which technologies are hot in which places. The darker the colour, the more innovators are working with that technology.
+        	<p>The numbers are dominated by Javascript, a language most commonly used to write web pages like this one, but there are clear clusters of other languages. For example, Cambridge has over 1000 programmers working in OCaml, a language heavily associated with Cambridge Computer Labs, and little used elsewhere (it has less than 50 users in London).
           </div>
         </div>
         
