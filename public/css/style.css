@@ -88,3 +88,22 @@ li {
     width: 500px;
     padding-left: 30px;
 }
+
+#sigma-container {
+    max-width: 670px;
+    height: 500px;
+    margin: auto;
+}
+
+#innovator div {
+  margin: 5px;
+}
+#innovator .avatar img {
+  border: 1px solid black;
+  width: 125px;
+}
+
+#innovator .name {
+  font-weight: bold;
+  font-size: 1.1em; 
+}
