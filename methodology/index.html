@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              dcat: http://www.w3.org/ns/dcat#
+              odrs: http://schema.theodi.org/odrs#">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nesta Innovators | Home</title>
+  <link href="/css/app-bootstrap-blue.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  <link href="/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+  
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
+  <script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
+  
+</head>
+
+<body>
+  <nav>
+    <div class="navbar navbar-inverse navbar-static-top" id="topbar">
+      <div class="container">
+	<div class="navbar-inner">
+	  <h1><a href="/">Using big data to find innovators. A project funded by Nesta.</h1>
+          <a class="brand">
+            <i class=" icon-lightbulb icon-white icon-2x"></i>
+          </a>
+	</div>
+      </div>
+    </div>
+    <div class="navbar navbar-static-top" id="mainnav">
+      <div class="container">
+	<div class="navbar-inner">
+	  <ul class="nav pull-right">
+	    <li>
+	      <a href="/">Home</a>
+	    </li>
+            <li>
+	      <a href="/network">Network</a>
+	    </li>
+            <li>
+              <a href="/methodology">Methodology</a>
+              <div class="arrow-down"></div>
+            </li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="whiteout">
+    <header>
+      <div class="container">
+	<h1>Methodology</h1>
+      </div>
+    </header>
+    
+    <div class="container main-default" id="main">
+      <div class="row">
+        <div class="jumbotron span12">
+          <h2>Data collection</h2>
+          
+          
+          <p>This project used data about software developers from
+          Github, StackOverflow, and Twitter.</p>
+          
+          <p>This data lets us understand the relative importance of
+          different software developers to their communities, by
+          looking at their relationships, activity levels, and other
+          characteristics which are publicly shown on those sites.  We
+          collected this data by making API calls over a long period
+          to get a full set of user and repository profiles, which we
+          could then filter down to those of interest to us (UK-based
+          and popular).</p>
+          
+          <p>We also drew on Open Corporates’ data about corporate
+          entities, to learn more about the companies where innovators
+          worked.</p>
+          
+
+          <h2>Analysis method</h2>
+
+          <p>Our final analysis was framed around the Github user
+          profiles. We took the set of around 3000 UK-based users with
+          over 10 followers each (i.e. in-degree of >5) as our starting
+          point, our assumption being that having a number of peers
+          following one’s work is an indicator of doing something
+          interesting or innovative. We used these to create the
+          counts of ‘innovators’ by city and company, and we analysed
+          the number of repositories in each language for each of
+          these users to create the heat map of popular languages by
+          city.</p>
+          
+
+          <p>In order to create the network visualisations, we took
+          the top 20 Github users by in-degree, and then found all of
+          their reciprocal connections, including those which sit
+          outside the UK. The intention here is to discover how the
+          social networks of innovators cross borders of company and
+          city, and also to ensure that we picked up on any ‘hidden
+          innovators’ who did not have high follower counts but who
+          were followed and respected by the more visible members of
+          the group, or who had not publicly stated their locations so
+          would be missed in the initial sweep.</p>
+
+          <p>We applied the Force Atlas algorithm to these
+          sub-networks to create a clustered layout: we found that
+          there was a high degree of interconnectedness in most
+          programmers’ networks so there was limited separation into
+          clusters, but that there were still enough interesting
+          patterns to mean that network visualisations were useful and
+          worthwhile.</p>
+
+          <h2>Data collection and scrubbing challenges</h2>
+          
+          <p>In order to identify UK-only developers, for our ‘popular
+          people’ list, we needed first to filter their Github
+          profiles. Location in Github is a free text field, so it was
+          necessary to parse many different location descriptions, and
+          to identify and remove many false positives - for example,
+          Cambridge Massachusetts, where MIT is based.</p>
+
+          <p>We also found that the advertised API call limits were
+          often incorrect, so had to adjust our approach a number of
+          times to make sure that we could collect all of the relevant
+          data.</p>
+
+          <p>On the other hand, we found it much easier than expected
+          to join the Github and Twitter data; almost all of the
+          software developers on Github had also been Twitter early
+          adopters and had used the same handle, so we could easily
+          match these together by that unique identifier.</p>
+
+          <p>We found that the same matching was true for
+          StackOverflow users. However, we eventually found that the
+          StackOverflow information added very little to our analysis,
+          and made it more complex to understand, so we removed this
+          from our source data.</p>
+
+          <h2>Analytical challenges</h2>
+          
+          <p>We had two main analytical challenges: finding a
+          reasonable definition of ‘innovator’; and figuring out a way
+          to calculate and visualise social networks at a scale that
+          was manageable.</p> 
+
+          <p>For the ‘innovator’ definition, having tried a number of
+          more complex approaches including network centrality
+          calculations, StackOverflow scores, and other weighted
+          measures, we eventually settled on a simple in-degree
+          measure. This has the merit of being easy to explain, as
+          well as conforming to an intuitive understanding of
+          innovation, allowing the ‘collective intelligence’ of the
+          network to determine who it thinks is innovative.</p> 
+
+          <p>Visualising the social networks was much more
+          difficult. We wanted to create visualisations that let the
+          user explore a network by themselves, but also which
+          provided some immediate insight into an innovator community
+          by using clustering and colouring to indicate relationships
+          and characteristics of the individuals. This proved
+          extremely difficult: both clustering calculations and
+          visualisation become impractical as soon as the network is
+          of the order of thousands or tens of thousands of nodes, but
+          providing only a single network of ‘top’ innovators gave
+          very little insight.</p> 
+
+          <p>Eventually we settled on creating a separate network for
+          each of the ‘top’ innovators, taking all of their reciprocal
+          connections and then the links between those
+          connections. This gave us a set of manageably-sized networks
+          with interestingly different characteristics and themes
+          depending on the ‘seed’ person. It also ensured we picked up
+          on other probable innovative individuals who didn’t have a
+          huge in-degree or who hadn’t flagged themselves as in the
+          UK, but who nonetheless were followed and respected by
+          someone else with those characteristics.</p> 
+
+          <h2>Assumptions and possible biases</h2>
+
+          <p>The obvious bias of this analysis is that it relies on
+          public profiles, and on users of Github only. The Github
+          element should not be a significant problem, as it is a
+          commonplace tool for software developers. However, the
+          public data aspect, and the use of in-degree as a measure,
+          means that it will inevitably miss people doing innovative
+          work in isolation, or who are using Github but are not
+          sharing their work with anyone else. These ‘hidden
+          innovators’ will remain off the radar in any such public
+          data tracking.</p>
+          
+          <p>In addition, we have relied only on people’s publicly
+          declared locations and companies. This means that there are
+          probably a number of individuals whose personal profiles are
+          included here but who we haven’t been able to explicitly
+          link to their employer.</p>
+          
+          <p>Finally, we will have some bias towards users of open
+          source software, since GIthub is the de facto standard for
+          open source code sharing. We don’t believe that this will be
+          a major issue, since most developers even in corporate
+          environments will make use of open source.</p> 
+
+          <h2>Surprises</h2>
+
+          <p>There are a number of surprises in this analysis, which
+          should merit further analysis.</p> 
+
+          <p>The first is how London-centric the innovator count
+          is. This may be inevitable, given that strong communities
+          may only grow stronger. However, we’d expected other towns
+          to also show up in higher numbers.</p>
+
+          <p>Also, the limited number of UK commercial companies in
+          the data. There is a strong public sector presence: the BBC,
+          GDS, and University of Cambridge are all in the top
+          employers for innovative developers. There are also a number
+          of US software companies.</p> 
+
+          <p>Finally, the different network types that we see are also
+          interesting: some innovators are immensely connected and
+          tracking lots of other people, to the extent that their
+          social graph is a hairball that’s very hard to parse (for
+          example simonw - Simon Willison of Lanyrd) while some follow
+          very little of others’ work (for example scrooloose - Martin
+          Grenfell of Playmob).</p> 
+
+        </div>
+      </div>
+    </div>
+    
+    <footer id="footer">
+      <div class="container">
+        
+      <div class="span6">
+        <h3>Nesta</h3>
+        <ul class="icons">
+          <li>
+            <i class="icon-twitter-sign icon-white"></i>
+            <a href="http://twitter.com/nesta_uk">@nesta_uk</a>
+          </li>
+          <li>
+            <i class="icon-globe icon-white"></i>
+            <a href="http://www.nesta.org.uk/">Nesta</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="span5">
+        <h3>Mastodon C</h3>
+        <ul class="icons">
+          <li>
+            <i class="icon-twitter-sign icon-white"></i>
+            <a href="http://twitter.com/MastodonC">@MastodonC</a>
+          </li>
+          <li>
+            <i class="icon-globe icon-white"></i>
+            <a href="http://www.mastodonc.com/">Mastodon C Home</a>
+          </li>
+        </ul>
+      </div>
+      
+      </div>
+    </footer>
+    
+  <script src="/bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>
