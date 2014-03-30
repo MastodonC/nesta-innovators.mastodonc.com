@@ -26,4 +26,6 @@ var x3 = d3.scale.linear()
       .attr("x", function(d) { return x3(d.Count) + 4; })
       .attr("y", barHeight3 / 2)
       .attr("dy", ".35em")
-	.text(function(d) { return d.Company; });});
+	.text(function(d) { return d.Count + ' - ' + d.Company; });
+
+});

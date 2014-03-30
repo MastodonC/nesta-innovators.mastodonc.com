@@ -33,6 +33,6 @@ d3.json("data/by-location.json", function(error, json) {
 	.attr("x", function(d) { return x(d.Count) + 4; })
 	.attr("y", barHeight / 2)
 	.attr("dy", ".35em")
-	.text(function(d) { return d.Location; });
+	.text(function(d) { return d.Count + ' - ' + d.Location; });
 
 });

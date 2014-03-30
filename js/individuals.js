@@ -10,7 +10,9 @@ d3.json("data/innovators.json", function(error, json) {
     var barHeight2 = height/data.length;
     
 var x2 = d3.scale.linear()
-    .domain([0, d3.max(data, function(d) { return d.followers; })])
+    .domain([0, d3.max(data, function(d) {
+        return d.followers;
+    })])
     .range([0, width]);
     
     var bar2 = chart2.selectAll("g")
@@ -26,4 +28,6 @@ var x2 = d3.scale.linear()
       .attr("x", function(d) { return x2(d.followers) + 4; })
       .attr("y", barHeight2 / 2)
       .attr("dy", ".35em")
-	.text(function(d) { return d.login; });});
+	.text(function(d) { return d.followers + ' - ' + d.login; });
+
+} );
