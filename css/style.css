@@ -89,6 +89,10 @@ li {
     padding-left: 30px;
 }
 
+#location {
+    height: 250px;
+}
+
 #sigma-container {
     max-width: 1170px;
     height: 600px;

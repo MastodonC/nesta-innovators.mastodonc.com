@@ -38,49 +38,5 @@
   {
     "Location":"NOTTINGHAM",
     "Count":18
-  },
-  {
-    "Location":"BATH",
-    "Count":13
-  },
-  {
-    "Location":"DURHAM",
-    "Count":12
-  },
-  {
-    "Location":"LEICESTER",
-    "Count":12
-  },
-  {
-    "Location":"NEWCASTLE UPON TYNE",
-    "Count":11
-  },
-  {
-    "Location":"PORTSMOUTH",
-    "Count":11
-  },
-  {
-    "Location":"COVENTRY",
-    "Count":10
-  },
-  {
-    "Location":"LIVERPOOL",
-    "Count":7
-  },
-  {
-    "Location":"NORWICH",
-    "Count":7
-  },
-  {
-    "Location":"BRADFORD",
-    "Count":4
-  },
-  {
-    "Location":"CHESTER",
-    "Count":4
-  },
-  {
-    "Location":"LINCOLN",
-    "Count":4
   }
 ]
