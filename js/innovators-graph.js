@@ -23,7 +23,8 @@ var innovators = function() {
                                obj.bind('clickNode', function(e) {
                                    console.log(e.data.node.label);
                                    var github = e.data.node.label;
-                                   $("#follower .twitter").html('<a href="http://github.com/' + github + '"><i class="icon-github"/> ' + github + '</a>');
+                                   $("#follower .github").html('<a href="http://github.com/' + github + '"><i class="icon-github"/> ' + github + '</a>');
+                                   $("#follower .twitter").html('<a href="http://twitter.com/' + github + '"><i class="icon-twitter"/> ' + github + '</a>');
                                });
                                
                                
@@ -195,7 +196,8 @@ jQuery(document).ready(function($) {
        var attr = attributes[github];
        if (attr) {
         $("#innovator .avatar").html('<img src="' + attr.avatar + '"/>');
-        $("#innovator .twitter").html('<a href="http://github.com/' + github + '"><i class="icon-github"/> ' + github + '</a>');
+        $("#innovator .twitter").html('<a href="http://twitter.com/' + github + '"><i class="icon-twitter"/> ' + github + '</a>');
+        $("#innovator .github").html('<a href="http://github.com/' + github + '"><i class="icon-github"/> ' + github + '</a>');
         $("#innovator .name").text(attr.name);
         $("#innovator .company").text(attr.company);
        }
