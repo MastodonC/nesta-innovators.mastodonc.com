@@ -18,6 +18,13 @@ var x3 = d3.scale.linear()
     .enter().append("g")
       .attr("transform", function(d, i) { return "translate(0," + i * barHeight3 + ")"; });
 
+
+    bar3.on("click", function(d)
+          {
+            location.assign(d.url);
+          });
+
+
   bar3.append("rect")
       .attr("width", function(d) { return x3(d.Count); })
       .attr("height", barHeight3 - 4);
