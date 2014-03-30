@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              dcat: http://www.w3.org/ns/dcat#
+              odrs: http://schema.theodi.org/odrs#">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nesta Innovators | Home</title>
+  <link href="/css/app-bootstrap-blue.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  <link href="/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+  
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
+  <script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
+  
+  <script src="http://d3js.org/d3.v3.js"></script>
+
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script src="/js/sigma.min.js"></script>
+  <script src="/js/sigma.parsers.json.min.js"></script>
+  <script src="/js/sigma-settings.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar navbar-inverse navbar-static-top" id="topbar">
+      <div class="container">
+	<div class="navbar-inner">
+	  <h1><a href="/">Using big data to find innovators. A project funded by Nesta.</h1>
+          <a class="brand">
+            <i class=" icon-lightbulb icon-white icon-2x"></i>
+          </a>
+	</div>
+      </div>
+    </div>
+    <div class="navbar navbar-static-top" id="mainnav">
+      <div class="container">
+	<div class="navbar-inner">
+	  <ul class="nav pull-right">
+	    <li>
+	      <a href="/">Home</a>
+	    </li>
+            <li>
+	      <a href="/network">Network</a>
+              <div class="arrow-down"></div>
+	    </li>
+            <li>
+              <a href="/methodology">Methodology</a>
+            </li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="whiteout">
+    <header>
+      <div class="container">
+	<h1>Home</h1>
+      </div>
+    </header>
+
+    <div class="container main-default" id="main">
+      <div class="row">
+        <div class="row">
+          <div class="span12">
+            <h2>Innovators</h2>
+          </div>
+          <div class="span5">
+            This chart shows the connections between innovators.
+            <form>
+              <select name="innovators">
+                 <option value="">Please select</option>
+                 <option value="addyosmani">addyosmani</option>
+                 <option value="caolan">caolan</option>
+                 <option value="codepo8">codepo8</option>
+                 <option value="csswizardry">csswizardry</option>
+                 <option value="imathis">imathis</option>
+                 <option value="jgilfelt">jgilfelt</option>
+                 <option value="mattgemmell">matgemmell</option>
+                 <option value="mitsuhiko">mitsuhiko</option>
+                 <option value="nicklockwood">nicklockwood</option>
+                 <option value="remy">remy</option>
+                 <option value="scrooloose">scrooloose</option>
+                 <option value="chrisbanes">chrisbanes</option>
+                 <option value="daylerees">daylerees</option>
+                 <option value="jcoglan">jcoglan</option>
+                 <option value="kennethreitz">kennethreitz</option>
+                 <option value="memo">memo</option>
+                 <option value="nelstrom">nelstrom</option>
+                 <option value="padolsey">padolsey</option>
+                 <option value="rmurphey">rmurphey</option>
+                 <option value="simonw">simonw</option>
+              </select>
+            </form>
+          </div>
+          
+          <div class="span3">
+            <div id="innovator">
+               <div class="avatar"></div>
+               <div class="twitter"></div>
+               <div class="name"></div>
+               <div class="company"></div>
+            </div>
+          </div>
+
+          <div class="span3">
+            <div id="follower">
+              <div class="avatar"></div>
+              <div class="twitter"></div>
+              <div class="name"></div>
+              <div class="company"></div>
+            </div>
+          </div>
+
+          <div class="span12">
+            <div id="sigma-container"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <footer id="footer">
+      <div class="container">
+        
+      <div class="span6">
+        <h3>Nesta</h3>
+        <ul class="icons">
+          <li>
+            <i class="icon-twitter-sign icon-white"></i>
+            <a href="http://twitter.com/nesta_uk">@nesta_uk</a>
+          </li>
+          <li>
+            <i class="icon-globe icon-white"></i>
+            <a href="http://www.nesta.org.uk/">Nesta</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="span5">
+        <h3>Mastodon C</h3>
+        <ul class="icons">
+          <li>
+            <i class="icon-twitter-sign icon-white"></i>
+            <a href="http://twitter.com/MastodonC">@MastodonC</a>
+          </li>
+          <li>
+            <i class="icon-globe icon-white"></i>
+            <a href="http://www.mastodonc.com/">Mastodon C Home</a>
+          </li>
+        </ul>
+      </div>
+      
+      </div>
+    </footer>
+    
+  <script src="/bootstrap/js/bootstrap.js"></script>
+  
+  
+  <link href="/css/charts.css" rel="stylesheet" type="text/css">
+  <link href="/css/legend.css" rel="stylesheet" type="text/css">
+  
+  <script src="/js/innovators-graph.js"></script>
+  
+</body>
+</html>

@@ -190,7 +190,7 @@ jQuery(document).ready(function($) {
      innovators.clear();
      $(this).find("option:selected").each(function() {
        var github = $(this).val();
-       var jsonFile = "data/innovators/" + github + ".json";
+       var jsonFile = "/data/innovators/" + github + ".json";
        innovators.graph(jsonFile, "sigma-container");
        var attr = attributes[github];
        if (attr) {
