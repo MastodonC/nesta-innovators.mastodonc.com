@@ -71,7 +71,7 @@
           collected this data by making API calls over a long period
           to get a full set of user and repository profiles, which we
           could then filter down to those of interest to us (UK-based
-          and popular).</p>
+          and popular). This is something of a needle in a haystack problem: we started with 3 million profiles, and eventually filtered this down to 3,000 key users, only 0.1% of the total.</p>
           
           <p>We also drew on Open Corporates’ data about corporate
           entities, to learn more about the companies where innovators
@@ -82,7 +82,7 @@
 
           <p>Our final analysis was framed around the Github user
           profiles. We took the set of around 3000 UK-based users with
-          over 10 followers each (i.e. in-degree of >5) as our starting
+          over 10 followers each (i.e. in-degree of >10) as our starting
           point, our assumption being that having a number of peers
           following one’s work is an indicator of doing something
           interesting or innovative. We used these to create the
@@ -94,11 +94,11 @@
 
           <p>In order to create the network visualisations, we took
           the top 20 Github users by in-degree, and then found all of
-          their reciprocal connections, including those which sit
+          their reciprocal connections with in-degree >7, including those which sit
           outside the UK. The intention here is to discover how the
           social networks of innovators cross borders of company and
           city, and also to ensure that we picked up on any ‘hidden
-          innovators’ who did not have high follower counts but who
+          innovators’ who had more ordinary follower counts but who
           were followed and respected by the more visible members of
           the group, or who had not publicly stated their locations so
           would be missed in the initial sweep.</p>
@@ -167,7 +167,7 @@
 
           <p>Eventually we settled on creating a separate network for
           each of the ‘top’ innovators, taking all of their reciprocal
-          connections and then the links between those
+          connections with in-degree >7 and then the links between those
           connections. This gave us a set of manageably-sized networks
           with interestingly different characteristics and themes
           depending on the ‘seed’ person. It also ensured we picked up
@@ -220,10 +220,8 @@
           <p>Finally, the different network types that we see are also
           interesting: some innovators are immensely connected and
           tracking lots of other people, to the extent that their
-          social graph is a hairball that’s very hard to parse (for
-          example simonw - Simon Willison of Lanyrd) while some follow
-          very little of others’ work (for example scrooloose - Martin
-          Grenfell of Playmob).</p> 
+          social graph is a hairball that’s very hard to parse, while some follow
+          very little of others’ work.</p> 
 
         </div>
       </div>
