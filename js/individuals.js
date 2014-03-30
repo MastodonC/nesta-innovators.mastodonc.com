@@ -24,6 +24,12 @@ var x2 = d3.scale.linear()
       .attr("width", function(d) { return x2(d.followers); })
       .attr("height", barHeight2 - 4);
 
+  bar2.on("click", function(d)
+          {
+            location.assign('http://github.com/' + d.login);
+          });
+
+
   bar2.append("text")
       .attr("x", function(d) { return x2(d.followers) + 4; })
       .attr("y", barHeight2 / 2)
