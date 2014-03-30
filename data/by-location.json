@@ -1,82 +1,86 @@
 [
   {
     "Location":"LONDON",
-    "Count":1669
+    "Count":1314
   },
   {
     "Location":"CAMBRIDGE",
-    "Count":348
+    "Count":127
   },
   {
     "Location":"MANCHESTER",
-    "Count":105
+    "Count":76
   },
   {
     "Location":"BRISTOL",
-    "Count":73
+    "Count":56
   },
   {
     "Location":"OXFORD",
-    "Count":60
-  },
-  {
-    "Location":"DURHAM",
-    "Count":58
-  },
-  {
-    "Location":"BIRMINGHAM",
-    "Count":50
+    "Count":44
   },
   {
     "Location":"LEEDS",
-    "Count":49
+    "Count":38
   },
   {
     "Location":"SHEFFIELD",
-    "Count":34
+    "Count":29
   },
   {
-    "Location":"NOTTINGHAM",
-    "Count":29
+    "Location":"BIRMINGHAM",
+    "Count":25
   },
   {
     "Location":"SOUTHAMPTON",
-    "Count":29
+    "Count":23
   },
   {
-    "Location":"LINCOLN",
-    "Count":24
-  },
-  {
-    "Location":"PORTSMOUTH",
-    "Count":21
+    "Location":"NOTTINGHAM",
+    "Count":18
   },
   {
     "Location":"BATH",
-    "Count":16
-  },
-  {
-    "Location":"LEICESTER",
-    "Count":15
-  },
-  {
-    "Location":"NEWCASTLE UPON TYNE",
-    "Count":14
-  },
-  {
-    "Location":"COVENTRY",
     "Count":13
   },
   {
-    "Location":"CHESTER",
-    "Count":10
+    "Location":"DURHAM",
+    "Count":12
   },
   {
-    "Location":"NORWICH",
-    "Count":9
+    "Location":"LEICESTER",
+    "Count":12
+  },
+  {
+    "Location":"NEWCASTLE UPON TYNE",
+    "Count":11
+  },
+  {
+    "Location":"PORTSMOUTH",
+    "Count":11
+  },
+  {
+    "Location":"COVENTRY",
+    "Count":10
   },
   {
     "Location":"LIVERPOOL",
     "Count":7
+  },
+  {
+    "Location":"NORWICH",
+    "Count":7
+  },
+  {
+    "Location":"BRADFORD",
+    "Count":4
+  },
+  {
+    "Location":"CHESTER",
+    "Count":4
+  },
+  {
+    "Location":"LINCOLN",
+    "Count":4
   }
 ]

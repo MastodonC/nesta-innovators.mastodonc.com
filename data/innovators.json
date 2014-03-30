@@ -6,16 +6,7 @@
     "followees":190,
     "name":"Addy Osmani",
     "location":"LONDON",
-    "company":"GOOGLE"
-  },
-  {
-    "tag":119893,
-    "login":"kennethreitz",
-    "followers":4594,
-    "followees":186,
-    "name":"Kenneth Reitz",
-    "location":"WINCHESTER",
-    "company":"HEROKU"
+    "company":"GOOGLE."
   },
   {
     "tag":7396,
@@ -27,7 +18,7 @@
     "company":"FIRETEAM LTD."
   },
   {
-    "tag":13700,
+    "tag":469811,
     "login":"remy",
     "followers":2355,
     "followees":5,
@@ -36,22 +27,13 @@
     "company":"LEFT LOGIC"
   },
   {
-    "tag":751944,
+    "tag":338588,
     "login":"csswizardry",
     "followers":1293,
     "followees":8,
     "name":"Harry Roberts",
     "location":"LEEDS",
     "company":"CSS WIZARDRY"
-  },
-  {
-    "tag":58987,
-    "login":"rmurphey",
-    "followers":1287,
-    "followees":42,
-    "name":"Rebecca Murphey",
-    "location":"DURHAM",
-    "company":"BAZAARVOICE"
   },
   {
     "tag":227486,
@@ -63,7 +45,7 @@
     "company":"UNLISTED"
   },
   {
-    "tag":546885,
+    "tag":7568,
     "login":"nicklockwood",
     "followers":1172,
     "followees":0,
@@ -72,7 +54,7 @@
     "company":"CHARCOAL DESIGN"
   },
   {
-    "tag":144873,
+    "tag":503900,
     "login":"mattgemmell",
     "followers":1093,
     "followees":0,
@@ -81,13 +63,22 @@
     "company":"INSTINCTIVE CODE - HTTP://INSTINCTIVECODE.COM"
   },
   {
-    "tag":9599,
+    "tag":111315,
     "login":"simonw",
     "followers":805,
     "followees":119,
     "name":"Simon Willison",
     "location":"LONDON",
     "company":"LANYRD"
+  },
+  {
+    "tag":1192590,
+    "login":"idiot",
+    "followers":776,
+    "followees":10,
+    "name":"Visual Idiot",
+    "location":"UK",
+    "company":"UNLISTED"
   },
   {
     "tag":13508,
@@ -99,7 +90,7 @@
     "company":"UNLISTED"
   },
   {
-    "tag":7069,
+    "tag":9379,
     "login":"nelstrom",
     "followers":703,
     "followees":28,
@@ -108,7 +99,7 @@
     "company":"UNLISTED"
   },
   {
-    "tag":144230,
+    "tag":166207,
     "login":"memo",
     "followers":695,
     "followees":19,
@@ -117,16 +108,7 @@
     "company":"WWW.MSAVISUALS.COM"
   },
   {
-    "tag":207870,
-    "login":"daylerees",
-    "followers":686,
-    "followees":333,
-    "name":"Dayle Rees",
-    "location":"UK",
-    "company":"BOX UK CARDIFF"
-  },
-  {
-    "tag":59852,
+    "tag":94636,
     "login":"padolsey",
     "followers":686,
     "followees":32,
@@ -144,7 +126,7 @@
     "company":"UNLISTED"
   },
   {
-    "tag":175697,
+    "tag":262566,
     "login":"jgilfelt",
     "followers":648,
     "followees":49,
@@ -153,7 +135,7 @@
     "company":"READYSTATE SOFTWARE LTD"
   },
   {
-    "tag":1671,
+    "tag":134262,
     "login":"scrooloose",
     "followers":617,
     "followees":19,
@@ -162,21 +144,39 @@
     "company":"UNLISTED"
   },
   {
-    "tag":12732,
-    "login":"imathis",
-    "followers":579,
-    "followees":7,
-    "name":"Brandon Mathis",
-    "location":"BIRMINGHAM",
-    "company":"MONGOHQ"
+    "tag":16646,
+    "login":"daylerees",
+    "followers":599,
+    "followees":333,
+    "name":"Dayle Rees",
+    "location":"UK",
+    "company":"BOX UK CARDIFF"
   },
   {
-    "tag":9265,
+    "tag":18374,
     "login":"jcoglan",
     "followers":571,
     "followees":68,
     "name":"James Coglan",
     "location":"LONDON",
     "company":"UNLISTED"
+  },
+  {
+    "tag":1000,
+    "login":"aslakhellesoy",
+    "followers":518,
+    "followees":0,
+    "name":"Aslak Helles y",
+    "location":"LONDON",
+    "company":"CUCUMBER LTD"
+  },
+  {
+    "tag":8345,
+    "login":"alexyoung",
+    "followers":497,
+    "followees":12,
+    "name":"Alex Young",
+    "location":"LONDON",
+    "company":"HTTP://HELICOID.NET"
   }
 ]
