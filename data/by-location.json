@@ -1,42 +1,10 @@
-[
-  {
-    "Location":"LONDON",
-    "Count":1314
-  },
-  {
-    "Location":"CAMBRIDGE",
-    "Count":127
-  },
-  {
-    "Location":"MANCHESTER",
-    "Count":76
-  },
-  {
-    "Location":"BRISTOL",
-    "Count":56
-  },
-  {
-    "Location":"OXFORD",
-    "Count":44
-  },
-  {
-    "Location":"LEEDS",
-    "Count":38
-  },
-  {
-    "Location":"SHEFFIELD",
-    "Count":29
-  },
-  {
-    "Location":"BIRMINGHAM",
-    "Count":25
-  },
-  {
-    "Location":"SOUTHAMPTON",
-    "Count":23
-  },
-  {
-    "Location":"NOTTINGHAM",
-    "Count":18
-  }
-]
+[{ "Location": "London", "Count": 1667 },
+{ "Location": "Cambridge", "Count": 120 },
+{ "Location": "Manchester", "Count": 96 },
+{ "Location": "Bristol", "Count": 73 },
+{ "Location": "Oxford", "Count": 56 },
+{ "Location": "Leeds", "Count": 49 },
+{ "Location": "Belfast", "Count": 37 },
+{ "Location": "Sheffield", "Count": 34 },
+{ "Location": "Glasgow", "Count": 33 },
+{ "Location": "Nottingham", "Count": 29 }]

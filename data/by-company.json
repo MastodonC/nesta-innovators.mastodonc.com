@@ -1,112 +1,22 @@
-[
-  {
-    "Company":"BBC",
-    "url":"http://www.bbc.co.uk/",
-    "Count":21
-  },
-  {
-    "Company":"GOOGLE",
-    "url":"https://opencorporates.com/corporate_groupings/google",
-    "Count":17
-  },
-  {
-    "Company":"GOVERNMENT DIGITAL SERVICE",
-    "url":"https://www.gov.uk/government/policy-teams/government-digital-service",
-    "Count":11
-  },
-  {
-    "Company":"MOZILLA",
-    "url":"https://opencorporates.com/companies/us_mi/901788",
-    "Count":10
-  },
-  {
-    "Company":"THE GUARDIAN",
-    "url":"https://opencorporates.com/corporate_groupings/The+Guardian",
-    "Count":10
-  },
-  {
-    "Company":"RED HAT",
-    "url":"https://opencorporates.com/companies/us_az/F09548268",
-    "Count":9
-  },
-  {
-    "Company":"UNIVERSITY OF CAMBRIDGE",
-    "url":"http://www.cam.ac.uk",
-    "Count":9
-  },
-  {
-    "Company":"TWITTER",
-    "url":"https://opencorporates.com/companies/us_de/0867645",
-    "Count":7
-  },
-  {
-    "Company":"7DIGITAL",
-    "url":"https://opencorporates.com/companies/gb/04843573",
-    "Count":6
-  },
-  {
-    "Company":"DIGITAL SCIENCE",
-    "url":"https://opencorporates.com/companies/gb/00785998",
-    "Count":5
-  },
-  {
-    "Company":"GITHUB",
-    "url":"https://opencorporates.com/companies/us_ca/C3268102",
-    "Count":5
-  },
-  {
-    "Company":"GLOBAL PERSONALS",
-    "url":"https://opencorporates.com/companies/gb/04880697",
-    "Count":5
-  },
-  {
-    "Company":"GOCARDLESS",
-    "url":"https://opencorporates.com/companies/gb/07495895",
-    "Count":5
-  },
-  {
-    "Company":"HOUSETRIP",
-    "url":"https://opencorporates.com/companies/gb/07918564",
-    "Count":5
-  },
-  {
-    "Company":"MINT DIGITAL",
-    "url":"https://opencorporates.com/companies/gb/05291445",
-    "Count":5
-  },
-  {
-    "Company":"NEW BAMBOO",
-    "url":"https://opencorporates.com/companies/gb/05943167",
-    "Count":5
-  },
-  {
-    "Company":"NOKIA",
-    "url":"https://opencorporates.com/companies/fi/0112038-9",
-    "Count":5
-  },
-  {
-    "Company":"POTATO",
-    "url":"https://opencorporates.com/companies/gb/07178897",
-    "Count":5
-  },
-  {
-    "Company":"SIMPLEWEB",
-    "url":"https://opencorporates.com/companies/gb/05929003",
-    "Count":5
-  },
-  {
-    "Company":"SONGKICK.COM",
-    "url":"https://opencorporates.com/companies/gb/06265278",
-    "Count":5
-  },
-  {
-    "Company":"THOUGHTWORKS",
-    "url":"https://opencorporates.com/corporate_groupings/ThoughtWorks",
-    "Count":5
-  },
-  {
-    "Company":"YAMMER",
-    "url":"https://opencorporates.com/companies/us_ca/C3160306",
-    "Count":5
-  }
-]
+[{ "Company": "BBC", "Count": 28, "url":"http://www.bbc.co.uk/" },
+{ "Company": "GOOGLE", "Count": 25, "url":"https://opencorporates.com/corporate_groupings/google" },
+{ "Company": "MOZILLA", "Count": 15, "url":"https://opencorporates.com/companies/us_mi/901788" },
+{ "Company": "UNIVERSITY OF CAMBRIDGE", "Count": 14, "url":"http://www.cam.ac.uk" },
+{ "Company": "THE GUARDIAN", "Count": 14, "url":"https://opencorporates.com/corporate_groupings/The+Guardian" },
+{ "Company": "PIVOTAL LABS", "Count": 14, "url":"https://opencorporates.com/companies/us_ca/C1508063" },
+{ "Company": "GOVERNMENT DIGITAL SERVICE", "Count": 13, "url":"https://www.gov.uk/government/policy-teams/government-digital-service" },
+{ "Company": "FORWARD", "Count": 12, "url":"https://opencorporates.com/companies/gb/07717216" },
+{ "Company": "YAMMER", "Count": 11, "url":"https://opencorporates.com/companies/us_ca/C3160306" },
+{ "Company": "FACEBOOK", "Count": 9, "url":"https://opencorporates.com/companies/us_fl/P11000002667" },
+{ "Company": "NEW BAMBOO", "Count": 9, "url":"https://opencorporates.com/companies/gb/05943167" },
+{ "Company": "RED HAT", "Count": 8, "url":"https://opencorporates.com/companies/us_az/F09548268" },
+{ "Company": "7DIGITAL", "Count": 7, "url":"https://opencorporates.com/companies/gb/04843573" },
+{ "Company": "HOUSETRIP", "Count": 7, "url":"https://opencorporates.com/companies/gb/07918564" },
+{ "Company": "THOUGHTWORKS", "Count": 7, "url":"https://opencorporates.com/corporate_groupings/ThoughtWorks" },
+{ "Company": "TWITTER", "Count": 6, "url":"https://opencorporates.com/companies/us_de/0867645" },
+{ "Company": "GITHUB", "Count": 6, "url":"https://opencorporates.com/companies/us_ca/C3268102" },
+{ "Company": "DIGITAL SCIENCE", "Count": 6, "url":"https://opencorporates.com/companies/gb/00785998" },
+{ "Company": "GOCARDLESS", "Count": 6, "url":"https://opencorporates.com/companies/gb/07495895" },
+{ "Company": "SIMPLEWEB", "Count": 6, "url":"https://opencorporates.com/companies/gb/05929003" },
+{ "Company": "RUMBLE LABS", "Count": 6, "url":"https://opencorporates.com/companies/gb/NI072568" },
+{ "Company": "HAILO", "Count": 6, "url":"https://opencorporates.com/companies/gb/07477274" }]
